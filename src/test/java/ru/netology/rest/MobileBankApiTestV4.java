@@ -21,5 +21,6 @@ class MobileBankApiTestV4 {
                 .log().all()
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"));
+
     }
 }
